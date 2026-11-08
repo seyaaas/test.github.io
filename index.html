@@ -140,7 +140,7 @@ h1 {
     <audio id="birthdaySong" src="song.mp3" preload="auto"></audio>
 
 </div>
-
+<audio id="birthdaySong" src="song.mp3" preload="auto"></audio>
 <script>
 const colors = [
     "#e9a4a4",
@@ -183,7 +183,7 @@ musicButton.addEventListener("click", async () => {
             musicButton.textContent = "⏸ Pause Music";
         } catch (error) {
             musicButton.textContent = "▶ Play Music";
-            alert("Couldn't play the song. Please check song.mp3.");
+            
         }
     } else {
         song.pause();
